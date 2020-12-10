@@ -6,6 +6,7 @@ edition = "2018"
 
 [[bin]]
 name = "ferris"
+path = "src/main.rs"
 test = false
 bench = false
 
