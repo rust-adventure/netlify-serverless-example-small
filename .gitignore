@@ -1,4 +1,1 @@
-target
-.netlify
-functions
-bins
+/target
