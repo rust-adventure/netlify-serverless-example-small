@@ -4,7 +4,7 @@ directory = "functions/"
 command = """
 mkdir -p functions &&
 cd crates/hello && cargo build --release &&
-cd - && cp target/release/hello functions/
+cd - && crates/hello/target/release/hello functions/
 """
 
 [environment]
