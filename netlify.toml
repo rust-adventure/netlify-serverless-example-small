@@ -1,5 +1,11 @@
 [functions]
 directory = "functions/"
+[build]
+command = """
+mkdir functions &&
+cargo build --release --bin hello &&
+cp target/release/hello functions/
+"""
 
 [environment]
 NETLIFY_EXPERIMENTAL_BUILD_RUST_SOURCE = true
