@@ -2,7 +2,7 @@
 directory = "functions/"
 [build]
 command = """
-mkdir -p functions &&
+mkdir -p functions && mkdir -p public &&
 cd crates/hello && cargo build --release &&
 cd - && cp crates/hello/target/release/hello functions/
 """
