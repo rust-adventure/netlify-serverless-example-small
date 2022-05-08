@@ -5,23 +5,23 @@ use aws_lambda_events::{
     },
 };
 use http::HeaderMap;
-use lambda_runtime::{handler_fn, Context, Error};
+use lambda_runtime::{service_fn,LambdaEvent,  Error};
 
 #[tokio::main]
 async fn main() -> Result<(), Error> {
-    let handler_fn = handler_fn(handler);
+    let handler_fn = service_fn(handler);
     lambda_runtime::run(handler_fn).await?;
     Ok(())
 }
 
 async fn handler(
-    event: ApiGatewayProxyRequest,
-    _: Context,
+    event: LambdaEvent<ApiGatewayProxyRequest>,
 ) -> Result<ApiGatewayProxyResponse, Error> {
+    let (event, _) = event.into_parts();
     let world = "world".to_string();
     let first_name = event
         .query_string_parameters
-        .get("firstName")
+        .first("firstName")
         .unwrap_or(&world);
 
     dbg!(&first_name);
