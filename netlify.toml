@@ -3,8 +3,8 @@ directory = "functions/"
 [build]
 command = """
 mkdir -p functions &&
-cargo build --release --bin hello &&
-cp target/release/hello functions/
+cd crates/hello && cargo build --release &&
+cd - && cp target/release/hello functions/
 """
 
 [environment]
