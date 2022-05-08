@@ -1,0 +1,11 @@
+/Users/chris/github/rust-adventure/netlify-serverless-example-small/functions/hello/target/debug/deps/httparse-e235d93707dffed7.rmeta: /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/lib.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/iter.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/macros.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/simd/mod.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/simd/fallback.rs
+
+/Users/chris/github/rust-adventure/netlify-serverless-example-small/functions/hello/target/debug/deps/libhttparse-e235d93707dffed7.rlib: /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/lib.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/iter.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/macros.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/simd/mod.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/simd/fallback.rs
+
+/Users/chris/github/rust-adventure/netlify-serverless-example-small/functions/hello/target/debug/deps/httparse-e235d93707dffed7.d: /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/lib.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/iter.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/macros.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/simd/mod.rs /Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/simd/fallback.rs
+
+/Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/lib.rs:
+/Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/iter.rs:
+/Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/macros.rs:
+/Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/simd/mod.rs:
+/Users/chris/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.5.1/src/simd/fallback.rs:
