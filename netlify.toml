@@ -3,8 +3,8 @@ directory = "functions/"
 [build]
 command = """
 mkdir -p functions &&
-cd crates/hello && AWS_LAMBDA_FUNCTION_NAME=hello cargo build --release &&
-cd - && crates/hello/target/release/hello functions/
+cd crates/hello && cargo build --release &&
+cd - && cp crates/hello/target/release/hello functions/
 """
 
 [environment]
