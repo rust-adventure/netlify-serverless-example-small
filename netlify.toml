@@ -3,7 +3,8 @@ directory = "functions/"
 [build]
 command = """
 mkdir -p functions && mkdir -p public &&
-cd crates/hello && cargo build --release &&
+cargo install cargo-zigbuild &&
+cd crates/hello && cargo zigbuild --target x86_64-unknown-linux-gnu.2.26  --release &&
 cd - && cp crates/hello/target/release/hello functions/
 """
 
