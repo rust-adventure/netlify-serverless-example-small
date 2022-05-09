@@ -1,5 +1,5 @@
 [functions]
 directory = "functions/"
 
-[build.environment]
-NETLIFY_EXPERIMENTAL_BUILD_RUST_SOURCE = true
+[build]
+environment = { NETLIFY_EXPERIMENTAL_BUILD_RUST_SOURCE = true }
